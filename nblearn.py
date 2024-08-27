@@ -9,7 +9,7 @@ spam_key_prob = dict()
 ham_key_prob = dict()
 # location = sys.argv[1]
 # C:/Users/niran/OneDrive/Desktop/sublime/Spam or Ham/train/**/*.txt
-for name in glob.glob('C:/Users/niran/OneDrive/Desktop/sublime/Spam or Ham/train/**/*.txt', recursive=True):
+for name in glob.glob('C:/Users/Smita/OneDrive/Desktop/sublime/Spam or Ham/train/**/*.txt', recursive=True):
     n=name.split('.')
     f = open(name,"r", encoding="latin1")
     text_file=f.read()
