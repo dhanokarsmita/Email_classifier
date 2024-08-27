@@ -14,7 +14,7 @@ count2=0
 count3=0
 
 l=[]
-for name in glob.glob('C:/Users/niran/OneDrive/Desktop/sublime/Spam or Ham/dev/**/*.txt', recursive=True):
+for name in glob.glob('C:/Users/Smita/OneDrive/Desktop/sublime/Spam or Ham/dev/**/*.txt', recursive=True):
 	count+=1
 	f = open(name,"r", encoding="latin1")
 	prob_spam=math.log(p_spam)
